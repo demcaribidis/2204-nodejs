@@ -10,3 +10,4 @@ nodejs:
   - 17.1.0
 script:
   - node --version
+  - node hello.js
