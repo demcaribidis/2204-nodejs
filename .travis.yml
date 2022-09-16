@@ -4,7 +4,6 @@ language: nodejs
 - 16.16.0
 - 11.0.0
 - 8.12.0
-- nodejs --version 
 script:
 - nvm list 
 - node --version
