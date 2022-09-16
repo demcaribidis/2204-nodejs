@@ -1,6 +1,11 @@
 dist: xenial
 group: edge
 language: nodejs
+rvm list
+- nodejs --version
+- 16.16.0
+- 11.0.0
+- 8.12.0
 script:
 - node --version
 - node hello.js
