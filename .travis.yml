@@ -1,6 +1,6 @@
 dist: xenial
 group: edge
-language: opal
+language: nodejs
 script:
-  - node --version
-  - node hello.js
+- node --version
+- node hello.js
